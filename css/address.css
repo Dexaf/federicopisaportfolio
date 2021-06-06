@@ -1,0 +1,57 @@
+#address {
+    min-width: 60vw;
+    max-width: 60vw;
+    font-size: 2em !important;
+}
+
+.email{
+    font-size: 0.8em !important;
+    line-height: 4em !important;
+}
+
+#address i{
+    font-size: 1.3em !important;
+    line-height: 1.4em !important;
+}
+
+li {
+    color: rgb(209 209 209);
+    background-color: RGB(66, 66, 66) !important;
+    display: inline-block;
+    height: 90px !important;
+    vertical-align: middle !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+li:hover {
+    background-color: RGB(76, 76, 76) !important;
+}
+
+li:active {
+    background-color: RGB(56, 56, 56) !important;
+}
+
+
+/* smartphone e tablet */
+@media only screen and (max-width: 768px) {
+    #address{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        min-width: 90vw;
+        max-width: 90vw;
+        font-size: 1.2em !important;
+    }
+
+    .email{
+        font-size: 0.9em !important;
+        line-height: 4.6em !important;
+    }
+
+    #address i{
+        font-size: 1em !important;
+        line-height: 3em !important;
+    }
+}

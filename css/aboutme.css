@@ -1,0 +1,92 @@
+#aboutme {
+    height: 450px !important;
+    min-height: 450px !important;
+    min-width: 60vw;
+    max-width: 60vw;
+    text-align: center !important;
+    color: rgb(209 209 209);
+    background-color: RGB(66, 66, 66);
+}
+
+#aboutme * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrows {
+    margin-top: 10px !important;
+}
+
+.arrows:hover {
+    cursor: pointer;
+    background-color: RGB(76, 76, 76) !important;
+}
+
+.arrows:active {
+    cursor: pointer;
+    background-color: RGB(56, 56, 56) !important;
+}
+
+.list-group-item {
+    background-color: RGB(76 76 76) !important;
+    font-size: 0.9em !important;
+}
+
+#foto {
+    background-color: RGB(66, 66, 66);
+    max-width: 28vw !important;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+    transition: all 0.5s;
+}
+
+#foto:hover {
+    transform: scale(2);
+}
+
+#who,
+#what,
+#why,
+#when,
+#where {
+    height: 400px !important;
+}
+
+#who {
+    display: inline-block;
+}
+
+#who {
+    text-align: center;
+}
+
+#what {
+    display: none;
+}
+
+#why {
+    display: none;
+}
+
+#when {
+    display: none;
+}
+
+#where {
+    display: none;
+}
+
+
+/* smartphone e tablet */
+
+@media only screen and (max-width: 768px) {
+    #aboutme {
+        margin-left: 5vw !important;
+        margin-right: 5vw !important;
+        min-width: 90vw;
+        max-width: 90vw;
+    }
+    #foto {
+        min-width: 25vw !important;
+    }
+}

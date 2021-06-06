@@ -1,0 +1,103 @@
+html,
+body {
+    font-family: montserrat;
+    z-index: 0;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    min-height: 100%;
+}
+
+.background {
+    background-color: rgb(26, 26, 26);
+    min-height: 100vh !important;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#contenuto {
+    margin: auto;
+    margin-top: 15vh !important;
+}
+
+#menu_lato {
+    background-color: RGB(66, 66, 66) !important;
+    height: 450px;
+}
+
+.menu_item {
+    color: rgb(209 209 209);
+    text-align: left;
+    font-size: 1.25em;
+}
+
+.menu_item::after {
+    content: "";
+    display: block;
+    background-color: rgb(209 209 209);
+    width: 0px;
+    height: 1px;
+    transition: width 0.5s, background-color 0.7s;
+}
+
+.menu_item:hover::after {
+    background-color: rgb(209 209 209);
+    width: 100%;
+}
+
+.menu_item:hover {
+    cursor: pointer;
+}
+
+.menu_item.active::after {
+    background-color: rgb(209 209 209);
+    width: 100%;
+}
+
+
+/* smartphone e tablet */
+
+@media only screen and (max-width: 767px) {
+    #contenuto {
+        margin-top: 20px !important;
+    }
+    .menu_item {
+        display: inline !important;
+        font-size: 2em;
+        background-color: RGB(66, 66, 66);
+        border-radius: 5px 5px 5px 5px;
+        transition: color 0.5s, background-color 0.5s;
+    }
+    .menu_item:hover {
+        cursor: pointer;
+        color: RGB(66, 66, 66) !important;
+        background-color: rgb(209 209 209);
+    }
+    .menu_item.active {
+        color: RGB(66, 66, 66) !important;
+        background-color: rgb(209 209 209);
+    }
+    .menu_item::after {
+        display: none;
+    }
+    #menu_lato {
+        display: none;
+    }
+    #menu_sotto {
+        display: block !important;
+    }
+}
