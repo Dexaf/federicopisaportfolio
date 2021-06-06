@@ -41,7 +41,7 @@
 }
 
 #foto:hover {
-    transform: scale(2);
+    max-width: 35vw !important;
 }
 
 #who,

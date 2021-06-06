@@ -2,21 +2,17 @@ html,
 body {
     font-family: montserrat;
     z-index: 0;
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Old versions of Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
-    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
-    -ms-overflow-style: none;
+}
+
+html {
     /* IE and Edge */
-    min-height: 100%;
+    -ms-overflow-style: none !important;
+    /* Firefox */
+    scrollbar-width: none !important;
+}
+
+html::-webkit-scrollbar {
+    width: 0px !important;
 }
 
 .background {
@@ -32,6 +28,14 @@ body {
 #contenuto {
     margin: auto;
     margin-top: 15vh !important;
+    /* IE and Edge */
+    -ms-overflow-style: none !important;
+    /* Firefox */
+    scrollbar-width: none !important;
+}
+
+#contenuto::-webkit-scrollbar {
+    width: 0px !important;
 }
 
 #menu_lato {
