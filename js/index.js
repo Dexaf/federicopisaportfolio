@@ -7,6 +7,15 @@ $(document).ready(function() {
         connectParticles: true,
         siveVariations: 100,
         speed: 0.2,
+        responsive: [{
+            breakpoint: 767,
+            options: {
+                maxParticles: 80,
+                siveVariations: 3,
+                speed: 0.1,
+                connectParticles: true
+            }
+        }]
     });
 
     //Quando viene caricata la pagina cotnrolliamo l'hash nel url
