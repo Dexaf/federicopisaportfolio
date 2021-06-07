@@ -1,21 +1,15 @@
-#talktome{
-    height: 450px !important; 
+#talktome {
+    height: 450px !important;
     color: rgb(209 209 209) !important;
-    background-color: RGB(66, 66, 66) !important;
     min-height: 450px !important;
     text-align: center;
 }
 
-/* smartphone e tablet */
-@media only screen and (max-width: 768px) {
-    #talktome{
-        margin-left: 5vw !important;
-        margin-right: 5vw !important;
-        min-width: 90vw;
-        max-width: 90vw;
-    }
 
-    #contact-form{
+/* smartphone e tablet */
+
+@media only screen and (max-width: 768px) {
+    #contact-form {
         font-size: 0.8em;
     }
 }

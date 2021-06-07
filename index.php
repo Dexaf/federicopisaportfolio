@@ -44,7 +44,7 @@
 </head>
 
 <body>
-    <div id="contenuto" class="row mt-md-5 overflow-auto">
+    <div id="contenuto" class="row">
         <!-- menu_item laterale, compare solo sopra i 768px -->
         <div id="menu_lato" class="col-md-3 ml-md-5 shadow-lg rounded">
             <div id="userS" class="menu_item my-md-5"><i class="fas fa-user-circle"></i> About me</div>
@@ -53,20 +53,20 @@
             <div id="projectsS" class="menu_item my-md-5"><i class="fa fa-folder"></i> Projects </div>
             <div id="commentS" class="menu_item"><i class="fas fa-feather-alt"></i> Contact me </div>
         </div>
-        <div ng-view id="view" class="col-md-8 col-12 mx-auto p-0">
+        <div ng-view id="view" class="col-md-7 offset-1 col-10 rounded p-0">
 
         </div>
         <!-- menu_item a sfere inferiore, compare solo sotto i 768px -->
-        <div id="menu_sotto" class="mx-auto mt-3 row col-12 text-center" style="display: none">
-            <div id="userM" class="menu_item col-2 text-center"><i class="fas fa-user-circle"></i></div>
-            <div id="addressM" class="menu_item col-2 text-center ml-2"><i class="fas fa-address-card"></i></div>
-            <div id="awardM" class="menu_item col-2 text-center ml-2"><i class="fas fa-medal"></i></div>
-            <div id="projectsM" class="menu_item col-2 text-center ml-2"><i class="fa fa-folder"></i></div>
-            <div id="commentM" class="menu_item col-2 text-center ml-2"><i class="fas fa-feather-alt"></i></div>
+        <div id="menu_sotto" class="mx-auto mt-3 row col-12 text-center " style="display: none ">
+            <div id="userM" class="menu_item col-2 text-center "><i class="fas fa-user-circle "></i></div>
+            <div id="addressM" class="menu_item col-2 text-center ml-2 "><i class="fas fa-address-card "></i></div>
+            <div id="awardM" class="menu_item col-2 text-center ml-2 "><i class="fas fa-medal "></i></div>
+            <div id="projectsM" class="menu_item col-2 text-center ml-2 "><i class="fa fa-folder "></i></div>
+            <div id="commentM" class="menu_item col-2 text-center ml-2 "><i class="fas fa-feather-alt "></i></div>
         </div>
     </div>
 
-    <canvas class="background"></canvas>
+    <canvas class="background "></canvas>
 </body>
 
 </html>

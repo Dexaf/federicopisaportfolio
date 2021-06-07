@@ -1,16 +1,28 @@
 #aboutme {
     height: 450px !important;
     min-height: 450px !important;
-    min-width: 60vw;
-    max-width: 60vw;
     text-align: center !important;
-    color: rgb(209 209 209);
-    background-color: RGB(66, 66, 66);
+    /* IE and Edge */
+    -ms-overflow-style: none !important;
+    /* Firefox */
+    scrollbar-width: none !important;
+}
+
+#aboutme::-webkit-scrollbar {
+    width: 0px !important;
 }
 
 #aboutme * {
     display: inline-block;
     vertical-align: middle;
+    /* IE and Edge */
+    -ms-overflow-style: none !important;
+    /* Firefox */
+    scrollbar-width: none !important;
+}
+
+#aboutme *::-webkit-scrollbar {
+    width: 0px !important;
 }
 
 .arrows {
@@ -44,48 +56,36 @@
     max-width: 35vw !important;
 }
 
-#who,
+#who {
+    display: inline-block;
+    text-align: center;
+    max-height: 90% !important;
+}
+
 #what,
 #why,
 #when,
 #where {
-    height: 400px !important;
-}
-
-#who {
-    display: inline-block;
-}
-
-#who {
-    text-align: center;
-}
-
-#what {
     display: none;
+    max-height: 90% !important;
 }
 
-#why {
-    display: none;
+#sx {
+    position: absolute;
+    bottom: 5px;
+    left: 45%;
 }
 
-#when {
-    display: none;
-}
-
-#where {
-    display: none;
+#dx {
+    position: absolute;
+    bottom: 5px;
+    left: 55%;
 }
 
 
 /* smartphone e tablet */
 
 @media only screen and (max-width: 768px) {
-    #aboutme {
-        margin-left: 5vw !important;
-        margin-right: 5vw !important;
-        min-width: 90vw;
-        max-width: 90vw;
-    }
     #foto {
         min-width: 25vw !important;
     }

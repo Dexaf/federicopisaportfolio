@@ -1,15 +1,13 @@
 #address {
-    min-width: 60vw;
-    max-width: 60vw;
-    font-size: 2em !important;
+    font-size: 1.5em !important;
 }
 
-.email{
+.email {
     font-size: 0.8em !important;
     line-height: 4em !important;
 }
 
-#address i{
+#address i {
     font-size: 1.3em !important;
     line-height: 1.4em !important;
 }
@@ -22,7 +20,7 @@ li {
     vertical-align: middle !important;
 }
 
-a{
+a {
     text-decoration: none !important;
 }
 
@@ -36,21 +34,16 @@ li:active {
 
 
 /* smartphone e tablet */
+
 @media only screen and (max-width: 768px) {
-    #address{
-        margin-left: 5vw;
-        margin-right: 5vw;
-        min-width: 90vw;
-        max-width: 90vw;
+    #address {
         font-size: 1.2em !important;
     }
-
-    .email{
+    .email {
         font-size: 0.9em !important;
         line-height: 4.6em !important;
     }
-
-    #address i{
+    #address i {
         font-size: 1em !important;
         line-height: 3em !important;
     }

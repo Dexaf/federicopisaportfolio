@@ -5,15 +5,14 @@ $(document).ready(function() {
         selector: '.background',
         color: ['#cdcdcd', '#ffffff'],
         connectParticles: true,
-        siveVariations: 100,
         speed: 0.2,
         responsive: [{
             breakpoint: 767,
             options: {
-                maxParticles: 80,
+                maxParticles: 50,
                 siveVariations: 3,
                 speed: 0.1,
-                connectParticles: true
+                connectParticles: false
             }
         }]
     });

@@ -2,24 +2,34 @@ html,
 body {
     font-family: montserrat;
     z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
-html {
+html * {
     /* IE and Edge */
     -ms-overflow-style: none !important;
     /* Firefox */
     scrollbar-width: none !important;
 }
 
-html::-webkit-scrollbar {
+html *::-webkit-scrollbar {
     width: 0px !important;
 }
 
+#view {
+    height: 450px !important;
+    color: rgb(209 209 209) !important;
+    background-color: RGB(66, 66, 66) !important;
+    min-height: 450px !important;
+}
+
 .background {
-    background-color: rgb(26, 26, 26);
-    min-height: 100vh !important;
-    min-width: 100vw !important;
     position: absolute;
+    background-color: rgb(26, 26, 26);
     top: 0;
     bottom: 0;
     left: 0;
@@ -28,16 +38,10 @@ html::-webkit-scrollbar {
 }
 
 #contenuto {
-    margin: auto;
-    margin-top: 15vh !important;
-    /* IE and Edge */
-    -ms-overflow-style: none !important;
-    /* Firefox */
-    scrollbar-width: none !important;
-}
-
-#contenuto::-webkit-scrollbar {
-    width: 0px !important;
+    position: relative;
+    top: 10vh;
+    width: 90vw !important;
+    max-width: 90vw !important;
 }
 
 #menu_lato {
@@ -79,7 +83,14 @@ html::-webkit-scrollbar {
 
 @media only screen and (max-width: 767px) {
     #contenuto {
-        margin-top: 20px !important;
+        top: 10vh;
+        left: 0vw;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    #view {
+        min-width: 90vw;
+        max-width: 90vw;
     }
     .menu_item {
         display: inline !important;
@@ -105,5 +116,7 @@ html::-webkit-scrollbar {
     }
     #menu_sotto {
         display: block !important;
+        position: relative;
+        margin-left: 3.2vw !important;
     }
 }
