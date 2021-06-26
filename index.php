@@ -8,6 +8,8 @@
 
     <title>Federico pisa's portfolio</title>
 
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./img/Me.jpg"/>
     <!-- jquery e jqueryui -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -35,9 +37,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <!-- js vari -->
-    <script src="/js/app.js"></script>
+    <script src="./js/app.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="./js/index.js"></script>
 
     <!-- css esterno -->
     <link rel="stylesheet" href="./css/index.css">

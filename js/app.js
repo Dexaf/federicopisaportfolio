@@ -8,11 +8,11 @@ var VetrinaApp = angular.module('VetrinaApp', ['ngRoute', 'ngResource']);
 
 VetrinaApp.config(function ($routeProvider) 
 {
-    $routeProvider.when('/',{templateUrl : "pagine/aboutme.html", controller: ''});
-    $routeProvider.when('/address',{templateUrl : "pagine/address.html", controller: ''});
-    $routeProvider.when('/award',{templateUrl : "pagine/award.html", controller: ''});
-    $routeProvider.when('/projects',{templateUrl : "pagine/projects.html", controller: ''});
-    $routeProvider.when('/talktome',{templateUrl : "pagine/talktome.html", controller: ''});
+    $routeProvider.when('/',{templateUrl : "./pagine/aboutme.html", controller: ''});
+    $routeProvider.when('/address',{templateUrl : "./pagine/address.html", controller: ''});
+    $routeProvider.when('/award',{templateUrl : "./pagine/award.html", controller: ''});
+    $routeProvider.when('/projects',{templateUrl : "./pagine/projects.html", controller: ''});
+    $routeProvider.when('/talktome',{templateUrl : "./pagine/talktome.html", controller: ''});
 });
 /* 
 )Abbiamo creato un controller, a questo punto
