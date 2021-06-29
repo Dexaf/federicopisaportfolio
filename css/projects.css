@@ -4,6 +4,23 @@
     min-height: 450px !important;
 }
 
+li {
+    color: rgb(209 209 209);
+    background-color: RGB(66, 66, 66) !important;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li:hover {
+    background-color: RGB(76, 76, 76) !important;
+}
+
+li:active {
+    background-color: RGB(56, 56, 56) !important;
+}
 
 /* smartphone e tablet */
 
