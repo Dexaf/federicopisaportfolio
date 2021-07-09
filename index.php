@@ -8,6 +8,16 @@
 
     <title>Federico pisa's portfolio</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YG3CMG7ZZ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2YG3CMG7ZZ');
+    </script>
+
     <!-- favicon -->
     <link rel="icon" type="image/png" href="./img/Me.jpg"/>
     <!-- jquery e jqueryui -->
