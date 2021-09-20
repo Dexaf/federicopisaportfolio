@@ -178,7 +178,7 @@
             <h2><i class="fas fa-map-marker-alt"></i> Where can you find me?</h2>
             <p>
                 I'm on<br>
-                <span class="ig fw-bold">
+                <span class="ig min fw-bold">
                     <a href="https://www.instagram.com/federico_pisa/" class="text-decoration-none" target="_blank">
                         <i class="fab fa-instagram"></i>
                         Instagram
@@ -186,7 +186,7 @@
                 </span>
                 <br>
                 This is my email<br>
-                <span class="email fw-bold">
+                <span class="email min fw-bold">
                     <a href="mailto:Federicopisajob@gmail.com" class="text-decoration-none" target="_blank">
                         <i class="far fa-envelope"></i>
                         Federicopisajob@gmail.com
@@ -194,7 +194,7 @@
                 </span>
                 <br>
                 and this is my number<br>
-                <span class="number fw-bold">
+                <span class="number min fw-bold">
                     <a href="tel:3335384289" class="text-decoration-none" target="_blank">
                         <i class="fas fa-phone-alt"></i>
                         333 538 4289
