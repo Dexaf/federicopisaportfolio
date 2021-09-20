@@ -363,7 +363,7 @@ body {
 
 @media (max-width: 768px) {
     .imgAdapt {
-        width: 100%;
+        width: 100% !important;
     }
     .p0-min {
         padding-left: 0 !important;
