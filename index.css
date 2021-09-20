@@ -1,0 +1,358 @@
+.cursive {
+    font-family: 'Grey Qo', cursive;
+}
+
+.ms {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-color: black;
+}
+
+.shadowHD {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.652);
+}
+
+.shadowHDS {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.412);
+}
+
+#who {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 50px;   
+    padding: 50px;
+    z-index: 1;
+    color: white;
+}
+
+#who div img {
+    max-height: 250px;
+    border-radius: 5px 5px 5px 5px;
+    width: auto;
+}
+
+.whoDesc {
+    border-radius: 5px 5px 5px 5px;
+    backdrop-filter: blur(3px);
+}
+
+#why {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.whyContent {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.whyLi {
+    padding-left: 5px;
+    font-size: 0.8em;
+    transition: 0.5s all;
+    position: relative;
+}
+
+.whyLi:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.whyLi::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.576);
+    width: 1px;
+    height: 100%;
+    transition: width 0.5s, background-color 0.7s;
+}
+
+.whyLi:hover::before {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#how {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.howContent {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    font-size: 1.4em;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.anim {
+    transition: all 0.5s;
+}
+
+.yl:hover {
+    color: rgb(255, 255, 60)
+}
+
+.bl:hover {
+    color: rgb(60, 89, 255)
+}
+
+.rd:hover {
+    color: rgb(255, 36, 36)
+}
+
+.or:hover {
+    color: rgb(255, 124, 36)
+}
+
+.vl:hover {
+    color: rgb(138, 36, 255)
+}
+
+.az:hover {
+    color: rgb(67, 221, 255)
+}
+
+#where {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.whereContent {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    font-size: 1.4em;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.ig {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    transition: all 0.5s;
+}
+
+.ig:hover {
+    background: #dc2743;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: white !important;
+    padding: 3px;
+    text-decoration: none;
+    color: white !important;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ig a:hover {
+    color: white !important;
+}
+
+.email {
+    background: linear-gradient(to right, #30CFD0 0%, #084167 100%);
+    background: -moz-linear-gradient(to right, #30CFD0 0%, #084167 100%);
+    background: -webkit-linear-gradient(to right, #30CFD0 0%, #084167 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s;
+}
+
+.email:hover {
+    background: #249797 0%;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: white !important;
+    text-decoration: none;
+    color: white !important;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.email a:hover {
+    color: white !important;
+}
+
+.number {
+    background: linear-gradient(to right, #58d030 0%, #149b0d 100%);
+    background: -moz-linear-gradient(to right, #58d030 0%, #149b0d 100%);
+    background: -webkit-linear-gradient(to right, #58d030 0%, #149b0d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s;
+}
+
+.number:hover {
+    background: #44a225;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: white !important;
+    text-decoration: none;
+    color: white !important;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.number a:hover {
+    color: white !important;
+}
+
+#when {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.whenContent {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+#contactForm {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactFormContent {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+#popUp {
+    position: fixed;
+    z-index: 6;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.911);
+    backdrop-filter: blur(3px);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.652);
+    padding: 20px;
+    font-size: 2em;
+}
+
+#times {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#times:hover {
+    transform: rotate(90deg);
+}
+
+#times:active {
+    transform: rotate(360deg);
+}
+
+#darkScreen {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.481);
+    backdrop-filter: blur(3px);
+}
+
+#certificate {
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    backdrop-filter: blur(3px);
+    padding-top: 25px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1b8;
+    transition: all 0.5s;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(94, 94, 94);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(49, 49, 49);
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5px 5px 5px 5px;
+}
