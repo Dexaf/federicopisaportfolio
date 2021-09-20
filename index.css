@@ -6,7 +6,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -32,7 +32,7 @@ body{
     position: relative;
     left: 0;
     right: 0;
-    top: 50px;   
+    top: 50px;
     padding: 50px;
     z-index: 1;
     color: white;
@@ -357,9 +357,16 @@ body{
     border-radius: 5px 5px 5px 5px;
 }
 
+.imgAdapt {
+    width: auto;
+}
+
 @media (max-width: 768px) {
-    .p0-min{
-        padding-left:0 !important;
-        padding-right:0 !important;
+    .imgAdapt {
+        width: 100%;
+    }
+    .p0-min {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
