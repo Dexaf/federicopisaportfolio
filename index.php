@@ -49,13 +49,13 @@
 
     </div>
     <div id="who" class="row m-0 text-center" data-aos="fade-left" data-aos-duration="1000">
-        <div class="col-md-6 offset-md-1 col-12">
+        <div class="col-12">
             <h1 class="ms display-4">Pisa Federico: Web developer</h1>
             <div class="mt-5 row">
-                <div class="col-md-6 col-10 offset-1">
+                <div class="col-md-6 offset-md-0 col-10 offset-1">
                     <img src="./img/me.jpg" class="shadowHDS">
                 </div>
-                <div class="col-md-6 col-10 offset-1 ms whoDesc">
+                <div class="col-md-6 offset-md-0 col-10 offset-1 ms whoDesc">
                     <h2><i class="fas fa-user"></i> Who am i?</h2>
                     <p>
                         Hi, my name is <b>Federico Pisa</b> I'm 22 years old and i'm from Italy.<br /> My love for
