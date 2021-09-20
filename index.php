@@ -127,7 +127,7 @@
             </p>
         </div>
     </div>
-    <div id="certificate" class="text-center ms col-md-10 offset-md-1 col-12" data-aos="fade-down">
+    <div id="certificate" class="text-center ms col-md-10 offset-md-1" data-aos="fade-down">
         <h2><i class="fas fa-certificate"></i> Certificates</h2>
         <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
