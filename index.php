@@ -49,7 +49,7 @@
 
     </div>
     <div id="who" class="row m-0 text-center" data-aos="fade-left" data-aos-duration="1000">
-        <div class="col-10 offset-1">
+        <div class="col-md-10 offset-md-1 col-12">
             <h1 class="ms display-4">Pisa Federico: Web developer</h1>
             <div class="mt-5 row">
                 <div class="col-md-6">
@@ -70,7 +70,7 @@
             </div>
         </div>
     </div>
-    <div id="why" class="text-md-start ms px-5 col-10 offset-1">
+    <div id="why" class="text-md-start ms px-5 col-md-10 offset-md-1 col-12">
         <div class="whyContent" data-aos="fade-right">
             <h2><i class="fas fa-hard-hat"></i> Why should you hire me?</h2>
             <p> If you are here you probably found me on some freelancing
@@ -78,29 +78,29 @@
                 me in other ways I'd like to tell you how i work:
             </p>
             <div class="row">
-                <div class="whyLi col-md-3 offset-md-0 col-10 offset-1 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     Every project i decide to take it's a project i know i can do, so it
                     will be started and finished without a problem.
                 </div>
-                <div class="whyLi col-md-3 offset-md-0 col-10 offset-1 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     I've studied computer science at university, i know how to make a clean, scalable and manutenible
                     code. <br>
                     This will help in future versions.
                 </div>
-                <div class="whyLi col-md-3 offset-md-0 col-10 offset-1 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     Every project will have its own report which explain everything about how the website is made.
                 </div>
-                <div class="whyLi col-md-3 offset-md-0 col-10 offset-1 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     I already do this has a job, i'm a professional web developer.
                 </div>
             </div>
         </div>
     </div>
-    <div id="how" class="text-md-end ms px-5 col-10 offset-1">
+    <div id="how" class="text-md-end ms px-5 col-md-10 offset-md-1 col-12">
         <div class="howContent" data-aos="fade-left">
             <h2><i class="fas fa-tools"></i> How do i work?</h2>
             <p>
@@ -127,7 +127,7 @@
             </p>
         </div>
     </div>
-    <div id="certificate" class="text-md-center ms px-5 col-10 offset-1" data-aos="fade-down">
+    <div id="certificate" class="text-md-center ms px-5 col-md-10 offset-md-1 col-12" data-aos="fade-down">
         <h2><i class="fas fa-certificate"></i> Certificates</h2>
         <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -163,7 +163,7 @@
             </button>
         </div>
     </div>
-    <div id="when" class="text-md-start ms px-5 col-10 offset-1">
+    <div id="when" class="text-md-start ms px-5 col-md-10 offset-md-1 col-12">
         <div class="whenContent" data-aos="fade-down">
             <h2><i class="fas fa-calendar"></i> When can i contact you?/will you work on my project?</h2>
             <p>
@@ -173,7 +173,7 @@
             </p>
         </div>
     </div>
-    <div id="where" class="text-md-center ms px-5 col-10 offset-1">
+    <div id="where" class="text-md-center ms px-5 col-md-10 offset-md-1 col-12">
         <div class="whereContent" data-aos="fade-in">
             <h2><i class="fas fa-map-marker-alt"></i> Where can you find me?</h2>
             <p>
@@ -205,10 +205,10 @@
             </p>
         </div>
     </div>
-    <div id="contactForm" class="text-md-center ms px-5 col-10 offset-1">
+    <div id="contactForm" class="text-md-center ms px-5 col-md-10 offset-md-1 col-12">
         <div class="contactFormContent" data-aos="flip-left">
             <h2><i class="fas fa-pen"></i> Contact me right now</h2>
-            <form id="contact-form" class="col-10 offset-1 pt-4">
+            <form id="contact-form" class="col-md-10 offset-md-1 col-12 pt-4">
                 <div class="form-group text-start py-2">
                     <label for="Fullname">Full name</label>
                     <input type="text" class="form-control" id="Fullname" placeholder="Enter fullname or nominative">
