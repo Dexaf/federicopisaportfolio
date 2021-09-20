@@ -358,10 +358,6 @@ body{
 }
 
 @media (max-width: 768px) {
-    .min{
-        font-size: 0.7em;
-    }
-
     .p0-min{
         padding-left:0 !important;
         padding-right:0 !important;

@@ -52,7 +52,7 @@
         <div class="col-12">
             <h1 class="ms display-4">Pisa Federico: Web developer</h1>
             <div class="mt-5 row">
-                <div class="col-md-6 offset-md-0 col-10 offset-1">
+                <div class="col-md-6 offset-md-0 col-10 offset-1" style="margin-bottom: 20px;">
                     <img src="./img/me.jpg" class="shadowHDS" style="width: 100%;">
                 </div>
                 <div class="col-md-6 offset-md-0 col-10 offset-1 ms whoDesc">
@@ -178,7 +178,7 @@
             <h2><i class="fas fa-map-marker-alt"></i> Where can you find me?</h2>
             <p>
                 I'm on<br>
-                <span class="ig min fw-bold">
+                <span class="ig fw-bold">
                     <a href="https://www.instagram.com/federico_pisa/" class="text-decoration-none" target="_blank">
                         <i class="fab fa-instagram"></i>
                         Instagram
@@ -186,7 +186,7 @@
                 </span>
                 <br>
                 This is my email<br>
-                <span class="email min fw-bold">
+                <span class="email fw-bold">
                     <a href="mailto:Federicopisajob@gmail.com" class="text-decoration-none" target="_blank">
                         <i class="far fa-envelope"></i>
                         Federicopisajob@gmail.com
@@ -194,7 +194,7 @@
                 </span>
                 <br>
                 and this is my number<br>
-                <span class="number min fw-bold">
+                <span class="number fw-bold">
                     <a href="tel:3335384289" class="text-decoration-none" target="_blank">
                         <i class="fas fa-phone-alt"></i>
                         333 538 4289
