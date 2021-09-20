@@ -53,7 +53,7 @@
             <h1 class="ms display-4">Pisa Federico: Web developer</h1>
             <div class="mt-5 row">
                 <div class="col-md-6 offset-md-0 col-10 offset-1">
-                    <img src="./img/me.jpg" class="shadowHDS">
+                    <img src="./img/me.jpg" class="shadowHDS" style="width: 100%;">
                 </div>
                 <div class="col-md-6 offset-md-0 col-10 offset-1 ms whoDesc">
                     <h2><i class="fas fa-user"></i> Who am i?</h2>
