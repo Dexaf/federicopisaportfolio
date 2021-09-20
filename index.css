@@ -361,4 +361,9 @@ body{
     .min{
         font-size: 0.7em;
     }
+
+    .p0-min{
+        padding-left:0;
+        padding-right:0;
+    }
 }

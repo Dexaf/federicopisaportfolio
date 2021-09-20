@@ -48,7 +48,7 @@
     <div id="darkScreen" style="display: none;">
 
     </div>
-    <div id="who" class="row m-0 text-center" data-aos="fade-left" data-aos-duration="1000">
+    <div id="who" class="row m-0 p0-min text-center" data-aos="fade-left" data-aos-duration="1000">
         <div class="col-12">
             <h1 class="ms display-4">Pisa Federico: Web developer</h1>
             <div class="mt-5 row">
@@ -70,7 +70,7 @@
             </div>
         </div>
     </div>
-    <div id="why" class="text-center text-md-start ms px-5 col-md-10 offset-md-1 col-12">
+    <div id="why" class="text-center p0-min text-md-start ms px-5 col-md-10 offset-md-1 col-12">
         <div class="whyContent" data-aos="fade-right">
             <h2><i class="fas fa-hard-hat"></i> Why should you hire me?</h2>
             <p> If you are here you probably found me on some freelancing
@@ -100,7 +100,7 @@
             </div>
         </div>
     </div>
-    <div id="how" class="text-center text-md-end ms px-5 col-md-10 offset-md-1 col-12">
+    <div id="how" class="text-center p0-min text-md-end ms px-5 col-md-10 offset-md-1 col-12">
         <div class="howContent" data-aos="fade-left">
             <h2><i class="fas fa-tools"></i> How do i work?</h2>
             <p>
@@ -127,7 +127,7 @@
             </p>
         </div>
     </div>
-    <div id="certificate" class="text-center ms col-md-10 offset-md-1" data-aos="fade-down">
+    <div id="certificate" class="text-center p0-min ms col-md-10 offset-md-1" data-aos="fade-down">
         <h2><i class="fas fa-certificate"></i> Certificates</h2>
         <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -163,7 +163,7 @@
             </button>
         </div>
     </div>
-    <div id="when" class="text-center text-md-start ms px-5 col-md-10 offset-md-1 col-12">
+    <div id="when" class="text-center p0-min text-md-start ms px-5 col-md-10 offset-md-1 col-12">
         <div class="whenContent" data-aos="fade-down">
             <h2><i class="fas fa-calendar"></i> When can i contact you?/will you work on my project?</h2>
             <p>
@@ -173,7 +173,7 @@
             </p>
         </div>
     </div>
-    <div id="where" class="text-center text-md-center ms px-5 col-md-10 offset-md-1 col-12">
+    <div id="where" class="text-center p0-min text-md-center ms px-5 col-md-10 offset-md-1 col-12">
         <div class="whereContent" data-aos="fade-in">
             <h2><i class="fas fa-map-marker-alt"></i> Where can you find me?</h2>
             <p>
@@ -205,7 +205,7 @@
             </p>
         </div>
     </div>
-    <div id="contactForm" class="text-center text-md-center ms px-5 col-md-10 offset-md-1 col-12">
+    <div id="contactForm" class="text-center p0-min text-md-center ms px-5 col-md-10 offset-md-1 col-12">
         <div class="contactFormContent" data-aos="flip-left">
             <h2><i class="fas fa-pen"></i> Contact me right now</h2>
             <form id="contact-form" class="col-md-10 offset-md-1 col-12 pt-4">
