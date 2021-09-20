@@ -177,7 +177,7 @@
         <div class="whereContent" data-aos="fade-in">
             <h2><i class="fas fa-map-marker-alt"></i> Where can you find me?</h2>
             <p>
-                I'm on
+                I'm on<br>
                 <span class="ig fw-bold">
                     <a href="https://www.instagram.com/federico_pisa/" class="text-decoration-none" target="_blank">
                         <i class="fab fa-instagram"></i>
@@ -185,7 +185,7 @@
                     </a>
                 </span>
                 <br>
-                This is my email
+                This is my email<br>
                 <span class="email fw-bold">
                     <a href="mailto:Federicopisajob@gmail.com" class="text-decoration-none" target="_blank">
                         <i class="far fa-envelope"></i>
@@ -193,7 +193,7 @@
                     </a>
                 </span>
                 <br>
-                and this is my number
+                and this is my number<br>
                 <span class="number fw-bold">
                     <a href="tel:3335384289" class="text-decoration-none" target="_blank">
                         <i class="fas fa-phone-alt"></i>
