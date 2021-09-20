@@ -49,7 +49,7 @@
 
     </div>
     <div id="who" class="row m-0 text-center" data-aos="fade-left" data-aos-duration="1000">
-        <div class="col-md-10 offset-md-1 col-12">
+        <div class="col-md-6 offset-md-1 col-12">
             <h1 class="ms display-4">Pisa Federico: Web developer</h1>
             <div class="mt-5 row">
                 <div class="col-md-6 col-10 offset-1">
@@ -78,22 +78,22 @@
                 me in other ways I'd like to tell you how i work:
             </p>
             <div class="row">
-                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     Every project i decide to take it's a project i know i can do, so it
                     will be started and finished without a problem.
                 </div>
-                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     I've studied computer science at university, i know how to make a clean, scalable and manutenible
                     code. <br>
                     This will help in future versions.
                 </div>
-                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     Every project will have its own report which explain everything about how the website is made.
                 </div>
-                <div class="whyLi col-md-3 offset-md-0 col-md-10 offset-md-1 col-12 my-md-0 my-2" data-aos="zoom-in-down"
+                <div class="whyLi col-md-3 offset-md-0 col-12 my-md-0 my-2" data-aos="zoom-in-down"
                     data-aos-duration="1000">
                     I already do this has a job, i'm a professional web developer.
                 </div>
