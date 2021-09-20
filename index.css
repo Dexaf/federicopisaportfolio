@@ -171,6 +171,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    font-size: 0.8em;
     transition: all 0.5s;
 }
 
@@ -194,6 +195,7 @@ body{
     background: -webkit-linear-gradient(to right, #30CFD0 0%, #084167 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 0.8em;
     transition: all 0.5s;
 }
 
@@ -217,6 +219,7 @@ body{
     background: -webkit-linear-gradient(to right, #58d030 0%, #149b0d 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 0.8em;
     transition: all 0.5s;
 }
 
